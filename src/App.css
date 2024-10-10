@@ -1,0 +1,45 @@
+/* App-wide styles */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  /* Card styles */
+  .card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-img {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1.05rem;
+  }
+  
+  @media (max-width: 768px) {
+    .card-title {
+      font-size: 1rem;
+    }
+  }
+  
