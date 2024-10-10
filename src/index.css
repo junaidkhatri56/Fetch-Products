@@ -1,0 +1,13 @@
+.card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
